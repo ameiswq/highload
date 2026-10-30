@@ -1,0 +1,66 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Go build files
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+build/
+dist/
+
+# =========================
+# Test coverage
+# =========================
+coverage/
+coverage.out
+coverage.html
+*.prof
+*.pprof
+
+# =========================
+# IDE and editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Local HTTPS certificates
+# =========================
+certs/
+*.pem
+*.key
+
+# =========================
+# k6 benchmark results
+# =========================
+benchmarks/results/
+benchmarks/*.csv
+benchmarks/*.log
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+tmp/
+temp/
